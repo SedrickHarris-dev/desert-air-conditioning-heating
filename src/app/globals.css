@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0a3664;
+  --color-secondary: #0e559c;
+  --color-accent: #f29d23;
+  --font-display: "Barlow Condensed", system-ui, sans-serif;
+  --font-sans: "Manrope", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #0f172a;
+  background: #fff;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
